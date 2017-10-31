@@ -69,10 +69,8 @@ public class Tree {
 				root = null;
 			}//case 2: Only one child
 			else if(root.left == null){
-				Node temp = root;
 				root = root.right;
 			}else if(root.right == null){
-				Node temp = root;
 				root = root.left;
 			}//case 3: 2 children
 			else{

@@ -1,7 +1,7 @@
 import java.util.HashMap;
 import java.util.HashSet;
 import java.util.LinkedList;
-// DIrected Graph
+// Directed Graph
 public class Graph {
 	private static HashMap<Integer, Node> nodeLookup = new HashMap<Integer, Node>();
 	
